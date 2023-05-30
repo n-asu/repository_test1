@@ -77,8 +77,7 @@
 
  .list-profeel {
    color: #2d8fdd;
-   list-style-type: none !important;
-   /*ポチ消す*/
+   list-style-type: none !important; /*ポチ消す*/
  }
 
  .th-saishin {
@@ -117,26 +116,20 @@
 
  .list-ryaku li {
    color: #2d8fdd;
-   border-left: solid 6px #2d8fdd;
-   /*左側の線*/
-   margin-bottom: 30px;
-   /*下のバーとの余白*/
+   border-left: solid 6px #2d8fdd; /*左側の線*/
+   margin-bottom: 30px; /*下のバーとの余白*/
    line-height: 1.2;
    padding: 0.5em;
-   list-style-type: none !important;
-   /*ポチ消す*/
+   list-style-type: none !important; /*ポチ消す*/
    }
 
  .list-syumi li {
    color: #2d8fdd;
-   border-left: solid 6px #2d8fdd;
-   /*左側の線*/
-   margin-bottom: 30px;
-   /*下のバーとの余白*/
+   border-left: solid 6px #2d8fdd; /*左側の線*/
+   margin-bottom: 30px; /*下のバーとの余白*/
    line-height: 1.2;
    padding: 0.5em;
-   list-style-type: none !important;
-   /*ポチ消す*/
+   list-style-type: none !important; /*ポチ消す*/
  }
 
 .footer-001 {
