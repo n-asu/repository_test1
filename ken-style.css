@@ -1,0 +1,253 @@
+ .header {
+   background-color: #696969;
+   padding: 2rem;
+ }
+
+ .main {
+   
+  
+   margin: 0 auto;
+  
+   overflow-y: scroll;
+ }
+
+ .main-left {
+   background-color: #a9a9a9;
+   padding: 1rem 1rem;
+   flex: 1 1 auto;
+ }
+
+ .menulist {
+   list-style: square;
+   list-style-position: inside;
+   padding: 0;
+   flex-direction: column;
+ }
+
+ .menulist li {
+   margin-bottom: 1rem;
+ }
+
+ .main-right { 
+   background-color: #f0f8ff;
+   height:1400px;
+ }
+
+ .tab-content {
+  display: none;
+ }
+
+ .tab-content:target {
+   display: block;
+ }
+
+ .footer {
+   background-color: #f5f5f5;
+   padding: 1rem;
+   position: fixed;
+   bottom: 0;
+   left: 0;
+   right: 0;
+ }
+
+ ul,ol {
+   padding: 0;
+   position: relative;
+ }
+
+
+
+ .img-bauer-profeel {
+   position: static;
+   /*現在位置から相対位置を指定*/
+   width: 100%;
+   
+  
+ }
+
+ .list-profeel-all {
+   position: static;
+   left: auto;
+   top: auto;
+   margin-top: 2rem;
+ }
+
+ .list-profeel {
+   color: #2d8fdd;
+   list-style-type: none !important;
+   /*ポチ消す*/
+ }
+
+ .th-saishin {
+   height: 1vw;
+   align: left;
+   padding: 25px 5px;
+   font-size: 20px;
+ }
+
+ .table {
+   border-collapse: collapse;
+ }
+
+ .tr,td {
+   align: left;
+   border-top: 1px solid;
+ }
+
+
+ .content-profeel {
+   position: relative;
+   top:0px; /*追記*/
+   left:0px; 
+ 
+ }
+
+ .content-profeel table {
+    max-width: 100%; /* tableの最大幅を100%に指定 */
+    table-layout: fixed; /* tableのレイアウト方式を固定に指定 */
+    margin: 0 auto; /* テーブルを中央に配置 */
+  }
+
+ .th {
+   width: 300px;
+ }
+
+ .list-ryaku li {
+   color: #2d8fdd;
+   border-left: solid 6px #2d8fdd;
+   /*左側の線*/
+   margin-bottom: 30px;
+   /*下のバーとの余白*/
+   line-height: 1.2;
+   padding: 0.5em;
+   list-style-type: none !important;
+   /*ポチ消す*/
+   }
+
+ .list-syumi li {
+   color: #2d8fdd;
+   border-left: solid 6px #2d8fdd;
+   /*左側の線*/
+   margin-bottom: 30px;
+   /*下のバーとの余白*/
+   line-height: 1.2;
+   padding: 0.5em;
+   list-style-type: none !important;
+   /*ポチ消す*/
+ }
+
+.footer-001 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 25px 10px 10px;
+  background-color: #2589d0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.footer__logo {
+  width: 130px;
+  height: 30px;
+ }
+
+ .footer__list {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 0 1.5em;
+   list-style-type: none;
+   margin: 0 auto;
+   padding: 0.5em;
+ }
+
+ .footer__link {
+   color: #000000;
+   font-weight: 200;
+   text-decoration: none;
+ }
+
+ .footer__copyright {
+   margin: 0;
+   color: #000000;
+   font-weight: 200;
+   font-size: 0.8em;
+   text-align: center;
+ }
+
+}
+
+@media screen and (max-width: 400px) {
+
+ .main-right {
+   width: 100%;
+   height: auto;
+   
+   
+ } 
+
+ .img-bauer-profeel {
+   width: 90%;
+   height: auto;
+   margin: 0 auto; /* 画像を中央に配置 */
+   max-width: 100%; /* 画像の最大幅を100%に指定 */
+ }
+ .list-profeel-all{
+   height: auto;
+  }
+ .content-profeel{
+   height: auto;
+  }
+}
+
+@media screen and (min-width: 401px) {
+
+  .main {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1500px;
+    width: 100%;
+  }
+
+  .main-left {
+    background-color: #a9a9a9;
+    padding: 1rem 1rem;
+    flex: 1 1 auto;
+    width: 20%;
+  }
+
+  .main-right {
+  
+    background-color: #f0f8ff;
+    padding: 1rem 1rem;
+    width: 80%;
+    height:950px;
+  }
+
+  .img-bauer-profeel {
+    width: 50%;
+    height: auto;
+    max-width: 100%; /* 画像の最大幅を100%に指定 */
+  }
+
+  .list-profeel-all{
+    width: 50%;
+    height: auto;
+
+  }
+
+  .content-profeel{
+    position: absolute;
+    margin-top: 2rem;
+    padding: 2em;     /* 余白指定 */
+    top: 0%;        /* 上からの位置指定 */
+    left: 50%;
+  }
+
+
+}
+
+
+
